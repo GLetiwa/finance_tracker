@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+/* Form Styles */
+.form-label {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Transaction List Styles */
+.transaction-item {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.transaction-item:hover {
+    transform: translateY(-3px);
+}
+
+.transaction-item strong {
+    color: #333;
+}
+
+/* Budget List Styles */
+.budget-item {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.budget-item:hover {
+    transform: translateY(-3px);
+}
+
+.budget-item strong {
+    color: #333;
+}
